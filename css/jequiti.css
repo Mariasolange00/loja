@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 8%;
+}
+.boxVertical{
+    display: flex;
+    margin-top: 15%;
+}
+.boxProduto{
+    width: 40%;
+    text-align: center;
+    border: 1px solid #060c5d;
+    margin-left: 7%;
+    padding: 5% 0px 5% 0px;
+}
+.boxProduto small{
+    text-decoration-line: line-through;
+}
+h2{
+    text-align: center;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    padding: 7% 0px 7% 0px;
+    margin-top: 30%;
+}
+#boxRevistaAling{
+    display: flex;
+}
+.boxRevista{
+    width: 40%;
+    margin-left: 26%;
+    border: 2px solid #900a8e;
+    padding: 5% 3% 5% 3%;
+}
+.boxRevista p{
+    text-align: center;
+    border: 1px solid #810090;
+    border-radius: 3px;
+    padding: 5% 2%;
+}
+.boxRevista p:hover{
+    background-color: #c100b7;
+}
+#texto{
+    text-align: justify;
+    text-decoration: line-through;
+}
+span{
+    text-align: center;
+    display: inline-block;
+}
+
+#boxMenu{
+    width: 50%;
+    display: none;
+    position: fixed;
+    border-radius: 2px;
+    margin-top: -3%;
+    margin-left: -50%;
+}
+#boxMenu a{
+    background-color: #C0C0C0;
+    padding: 9% 0px 9% 10%;
+    text-decoration: none;
+    border-radius: 0px 7px 7px 0px;
+}
+#boxMenu a:hover{
+    width: 103%;
+    padding: 9% 10% 9% 20%;
+    text-align: center;
+    transition: padding 1s ease-in-out;
+}
+#iconOpen{
+    position: fixed;
+    
+}
+#boxFecharMenu{
+    direction: rtl;
+}
+body {
+    transition: all 2s;
+}

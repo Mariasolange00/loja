@@ -1,0 +1,25 @@
+#conteiner{
+    display: grid;
+    border: 2px solid #902aff;
+    padding-left: 27%;
+    margin-top: 27%;
+}
+
+
+.imagemLogo{
+    margin: 7% 0px 7% 0px;
+}
+img{
+    border-radius: 4px;
+}
+p{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Fasthand', cursive;
+    color: #c000a6;
+}
+
+
+

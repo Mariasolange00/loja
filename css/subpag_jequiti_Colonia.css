@@ -1,0 +1,14 @@
+
+
+#conteiner {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 45vh 45vh 45vh 45vh 45vh 45vh 45vh;
+    grid-gap: 6vh 3vw;
+}
+
+#conteiner div {
+    text-align: center;
+    border: 2px solid green;
+}
+
