@@ -1,18 +1,14 @@
 
-h2 {
-    text-align: center;
-}
 
 #conteiner {
     display: grid;
     grid-template-columns: auto auto;
-    
-    grid-gap: 6vh 3vw;
+    grid-gap: 3vh 6vw;
 }
 
 #conteiner div {
-    text-align: center;
-    border: 2px solid green;
+    border: pink 1px solid;
     border-radius: 4px;
 }
+
 
