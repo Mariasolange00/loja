@@ -83,6 +83,11 @@ span{
     text-align: center;
     transition: padding 1s ease-in-out;
 }
+
+/*#boxMenu a:active{
+    color: red;
+}*/
+
 #iconOpen{
     position: fixed;
     
@@ -94,7 +99,7 @@ p{
     font-family: 'cambria';
 }
 #box_menu {
-    display: flex;
+    display: none;
     text-align: center;
     padding: 9vh 0px 9vh 5vw;
     border: 1px solid #877c87;
@@ -105,5 +110,5 @@ p{
     border-radius: 5px;
 }
 #box_menu div {
-    ma
+    
 }
