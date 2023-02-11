@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'tech';
+    src: url('../fonts/OriginTech personal use.ttf');
+}
+
+* {
+    font-family: 'tech';
+}
 
 #conteiner {
     display: grid;

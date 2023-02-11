@@ -110,6 +110,8 @@ span{
 #box_menu img {
     border-radius: 5px;
 }
-#box_menu div {
-    
+
+p{
+    word-wrap: break-word;
+    hyphens: auto;
 }
