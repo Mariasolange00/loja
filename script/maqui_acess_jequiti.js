@@ -39,7 +39,8 @@ let color_batom = (cor) => {
 }
 
 
-//let open_palette = new Function ("document.getElementById('open_palette').setAttribute('open','')") 
+
+
 
 let open_palette = () => {
     document.getElementById("batom_aviva").setAttribute("open","")
@@ -49,5 +50,46 @@ let open_palette = () => {
 
 function fechar_paleta() {
     document.getElementById("batom_aviva").removeAttribute("open")
+    document.querySelector("section").style.filter = "blur(0px)"
+}
+
+
+
+
+/* ffffffffffffffffffffff */
+
+let img_lapis_olho2em1 = document.getElementById("lapis_olhos2em1")
+let nome_cor_lapieParaOlhos2em1 = document.getElementById("nome_cor_lapieParaOlhos2em1")
+
+
+function color_lapis_olho2em1(cor) {
+    
+    if(cor == 'marron_escuro') {
+        img_lapis_olho2em1.src = "https://www.avoncomigo.avon.com.br/wcsstore/AvonStoreCAS/imgs-catalog/fullimage/1478364.jpg"
+        nome_cor_lapieParaOlhos2em1.innerHTML = cor
+    }
+    
+    if(cor == 'preto_intenso') {
+        img_lapis_olho2em1.src = "https://www.avoncomigo.avon.com.br/wcsstore/AvonStoreCAS/imgs-catalog/fullimage/1478363.jpg"
+        nome_cor_lapieParaOlhos2em1.innerHTML = cor
+    }
+    
+    
+}
+
+
+
+
+
+
+
+function abrir_paleta_lapisOlhos() {
+    document.getElementById("lapis_olho2em1").setAttribute("open","")
+    document.querySelector("section").style.filter = "blur(5px)"
+}
+
+
+function fechar_paleta_lapis_olho2em1() {
+    document.getElementById("lapis_olho2em1").removeAttribute("open")
     document.querySelector("section").style.filter = "blur(0px)"
 }
