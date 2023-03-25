@@ -19,7 +19,7 @@ h1{
 .boxProduto{
     width: 40%;
     text-align: center;
-    border: 1px solid #060c5d;
+    border: 2px solid pink;
     margin-left: 7%;
     padding: 5% 0px 5% 0px;
 }

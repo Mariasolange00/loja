@@ -11,12 +11,14 @@ section {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-around;
+    grid-gap: 10px 0px;
 }
 
 section div {
     border: pink 2px solid;
     text-align: center;
     width: 40vw;
+    border-radius: 5px;
 }
 
 #batom_aviva {
